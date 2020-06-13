@@ -37,6 +37,6 @@ jobs:
        run: npm install -g surge
             
     - name: deploying on surge
-      run: surge ./build ordinary-lumber.surge.sh/ --token f3fba9d11dbdb4da8546473d862ca227
+      run: surge ./build bootcampmalik.surge.sh --token f3fba9d11dbdb4da8546473d862ca227
             
     
