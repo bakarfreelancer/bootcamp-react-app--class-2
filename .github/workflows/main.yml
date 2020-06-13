@@ -36,7 +36,7 @@ jobs:
     -  name: installing surge
        run: npm install -g surge
             
-    -  name: deploying on surge
+    - name: deploying on surge
       run: surge ./build http://ordinary-lumber.surge.sh/ --token {{secret.SURGE_TOKEN}}
             
     
